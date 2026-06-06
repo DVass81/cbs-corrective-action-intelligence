@@ -3,7 +3,7 @@
 This repo now contains two product tracks:
 
 - The React/Vite app remains the polished enterprise prototype.
-- `streamlit_app.py` is the working MVP app with persistence, forms, AI-ready analysis, audit log, CAPA tracking, evidence metadata, and report export.
+- `streamlit_app.py` is the working MVP app with persistence, forms, RCA tooling, AI-ready analysis, audit log, CAPA tracking, evidence metadata, and report export.
 
 ## MVP Completed
 
@@ -11,10 +11,14 @@ This repo now contains two product tracks:
 - Seeded manufacturing RCA/CAPA examples.
 - Investigation creation and editing.
 - Evidence metadata capture.
-- CAPA creation and register.
+- RCA Toolbox with 5 Why draft generation.
+- 5M+1E cause exploration.
+- Lean strategy recommendations by issue type.
+- AI-generated containment, corrective, preventive, and verification actions.
+- One-click CAPA creation from generated recommendations.
 - Executive dashboard with cost, status, Pareto, RCA score, and overdue signals.
 - AI assistant that uses `OPENAI_API_KEY` when available and a deterministic fallback otherwise.
-- Downloadable Markdown executive RCA report.
+- Downloadable Markdown executive RCA report with RCA method output.
 - Audit log for investigation, evidence, and CAPA events.
 - Product-readiness admin page.
 
@@ -27,8 +31,9 @@ This repo now contains two product tracks:
 5. Generate PDF and Word reports.
 6. Add ERP, QMS, MES, email, Teams, Slack, SharePoint, and Power BI integrations.
 7. Add multi-tenant organization/account model.
-8. Add monitoring, backups, CI/CD, test coverage, and deployment scripts.
-9. Create pricing, onboarding, support docs, and security/compliance collateral.
+8. Add stronger AI investigation prompts that compare evidence against prior RCA history.
+9. Add monitoring, backups, CI/CD, test coverage, and deployment scripts.
+10. Create pricing, onboarding, support docs, and security/compliance collateral.
 
 ## Run The Streamlit MVP
 
