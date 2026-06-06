@@ -18,6 +18,8 @@ Streamlit Cloud will install dependencies from:
 requirements.txt
 ```
 
+RCA-specific notes and project material live in the `RCA/` folder. The app entry point stays at the repository root so Streamlit Cloud can find it.
+
 ## Working Streamlit MVP
 
 The Streamlit app includes:
@@ -25,12 +27,15 @@ The Streamlit app includes:
 - Persistent SQLite-backed investigations database.
 - Investigation creation and editing.
 - Evidence metadata capture.
-- CAPA creation and register.
-- Executive dashboard with charts and metrics.
+- RCA Toolbox with 5 Why analysis.
+- 5M+1E cause exploration.
+- Lean strategy recommendations.
+- AI-generated corrective, preventive, containment, and verification actions.
+- One-click creation of generated CAPA records.
+- CAPA register and audit logging.
 - AI investigation assistant with OpenAI support when `OPENAI_API_KEY` is set.
-- Offline deterministic AI fallback when no API key is present.
-- Downloadable Markdown executive RCA reports.
-- Audit log and product readiness page.
+- Offline deterministic fallback when no API key is present.
+- Downloadable executive RCA reports with RCA method output included.
 
 Run locally:
 
@@ -58,7 +63,7 @@ npm run dev
 
 ## Product Scope
 
-The app is moving from demo toward product: dashboard-first enterprise interface, manufacturing RCA workflows, CAPA management, investigation quality scoring, AI assistant surfaces, reporting, evidence tracking, audit logging, and settings/readiness for future enterprise configuration.
+The app is moving from demo toward product: dashboard-first enterprise interface, manufacturing RCA workflows, 5 Why, 5M+1E, Lean countermeasure selection, generated CAPA management, investigation quality scoring, AI assistant surfaces, reporting, evidence tracking, audit logging, and settings/readiness for future enterprise configuration.
 
 ## Future AI Integration
 
